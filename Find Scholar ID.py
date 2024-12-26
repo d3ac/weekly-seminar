@@ -2,7 +2,7 @@ import requests
 
 # search for the paper on https://arxiv.org/
 
-arxiv_id = "2104.02057"
+arxiv_id = "2202.10324"
 
 url = f"https://api.semanticscholar.org/v1/paper/arXiv:{arxiv_id}"
 response = requests.get(url)
